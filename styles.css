@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  /* color: rgb(240, 238, 238); */
+  font-family:
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background: none;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  list-style-type: none;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100%-2rem);
+    padding: 1rem;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: unset;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+h3 {
+    color: #ec5242 !important;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+button {
+    all: unset;
+    padding: 1.6rem;
+    margin: 2rem;
+    background-color: #ec5242;
+}
+
+.flexRow {
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    width: 53px;
+    height: 16px;
+    border-top: 1px solid #ef513c;
+}
+
+.spacer1 {
+    width: 25px;
+    height: 16px;
+    border-top: 1px solid gray;
+}
+
+#welcome {
+    color: #4e4e4e;
+    background: url(media/mobile_intro_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+
+#mobileMenuButton {
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+.head * {
+    color: #ec5242;
+}
+
+.head p {
+    font-size: x-large;
+    margin-bottom: .5rem;
+    font-weight: 300;
+}
+
+#welcome article {
+    background: #f7f7f7;
+    padding: 1.5rem;
+    border: 2px solid white;
+}
+
+#welcome article p {
+    margin: 0;
+}
+
+#date {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+#location {
+    margin-top: unset;
+    margin-bottom: 15%;
+}
+
+#activities {
+    background: url(media/pattern_bg.png) #272a31;
+    align-items: center;
+}
+
+#activities * {
+    color: whitesmoke;
+}
+
+.activity {
+    background-color: rgba(245, 245, 245, 0.15) ;
+    padding: 1rem;
+    margin: .5rem;
+}
+li {
+    text-decoration: none;
+}
+.activity * {
+    margin: 1rem;
+}
+
+#speakers {
+    justify-content: center;
+    align-items: center;
+}
+
+#speakers article * {
+    margin: .5rem;
+}
+
+#speakers article div h3 {
+    color: #272a31 !important;
+}
+
+#speakers button {
+    width: 90%;
+    background-color: white;
+    border: solid 1px rgb(216, 216, 216);
+    text-align: center;
+}
+
+#speakerTitle {
+    color: #ef513c;
+    font-style: italic;
+}
+
+.mobileMenu {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #646369;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.mobileMenu * {
+    color: #272a31;
+    margin: unset;
+}
+
+.mobileMenu ul {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mobileMenu ul li a {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+

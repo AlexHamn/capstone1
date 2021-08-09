@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+  /* color: rgb(240, 238, 238); */
+  font-family:
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background: none;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  text-align: center;
+  list-style-type: none;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100%-3rem);
+    padding: 1.5rem;
+}
+
+#mobileMenuButton {
+    width: 50px;
+    margin-bottom: 2rem;
+    align-self: flex-start;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    color: #ec5242 !important;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+a {
+    color: unset;
+}
+
+img {
+    margin: .5rem;
+}
+
+button {
+    padding: 1.2rem;
+    margin: 1rem;
+    background-color: #ec5242;
+}
+
+.flexRow {
+    display: flex;
+    align-items: center;
+}
+
+.spacer {
+    width: 53px;
+    height: 16px;
+    border-top: 1px solid #ef513c;
+}
+
+#hero {
+    background: url(media/mobile_intro_bg.png);
+}
+
+#hero article {
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid #dfdfdf;
+}
+
+#hero article p {
+    margin: 0;
+}
+
+.head * {
+    color: #ec5242;
+}
+
+.head a p {
+    font-size: x-large;
+    margin-bottom: .5rem;
+    font-weight: 300;
+}
+
+#logoSection {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#logoSection img {
+    width: 95%;
+}
+
+#pastSummits img:hover {
+    filter: grayscale(1);
+    transition: 0.15s ease-in-out;
+}
+
+#partners {
+    background: #2e2e2e;
+}
+
+#partners h2 {
+    color: whitesmoke;
+}
+
+#partners img {
+    width: 25%;
+}
+
+footer {
+    justify-content: center;
+}
+
+footer * {
+    margin: 2rem;
+    text-align: left;
+    font-size: .85rem;
+}
+
+footer img {
+    width: 35%;
+}
+
+.mobileMenu {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #646369;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.mobileMenu * {
+    color: #272a31;
+    margin: unset;
+}
+
+.mobileMenu ul {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mobileMenu ul li a {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+

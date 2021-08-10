@@ -25,7 +25,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(100% - 3rem);
   padding: 1.5rem;
 }
 

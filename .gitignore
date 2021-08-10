@@ -1,7 +1,12 @@
-.github
-
-.eslintrc.json
 
 package-lock.json
 
 node_modules
+
+.hintrc
+
+.stylelintrc.json
+
+.github
+
+.eslintrc.json

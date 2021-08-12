@@ -210,13 +210,25 @@ header {
   width: 25%;
 }
 
-#pastSummits img:hover {
+#pastLinks img {
+  width: 90%;
+  max-width: 455px;
+}
+
+#pastLinks img:hover {
   filter: grayscale(1);
   transition: 0.15s ease-in-out;
 }
 
 #CCKW {
   display: none;
+}
+
+@media screen and (max-device-width: 496px) {
+  footer * {
+    margin: .5rem;
+    font-size: .6rem;
+  }
 }
 
 @media screen and (min-device-width: 768px) {

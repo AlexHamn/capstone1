@@ -331,6 +331,10 @@ li {
     display: none;
   }
 
+  #speakerContainer article {
+    width: 50%;
+  }
+
   #partners {
     align-items: center;
     display: flex;

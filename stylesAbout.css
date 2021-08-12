@@ -226,8 +226,8 @@ header {
 
 @media screen and (max-device-width: 496px) {
   footer * {
-    margin: .5rem;
-    font-size: .6rem;
+    margin: 0.5rem;
+    font-size: 0.6rem;
   }
 }
 

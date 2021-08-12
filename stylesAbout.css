@@ -76,6 +76,7 @@ footer * {
 
 footer img {
   width: 35%;
+  max-width: 200px;
 }
 
 .flexRow {
@@ -225,9 +226,17 @@ header {
 }
 
 @media screen and (max-device-width: 496px) {
+  .flexRow {
+    flex-direction: column;
+  }
+
   footer * {
     margin: 0.5rem;
     font-size: 0.6rem;
+  }
+
+  footer img {
+    width: 80%;
   }
 }
 

@@ -78,15 +78,14 @@ header {
 
 footer {
   justify-content: center;
-
-  /* padding: 5%; */
-  display: none;
+  background: #2e2e2e;
 }
 
 footer * {
   margin: 2rem;
   text-align: left;
   font-size: 0.85rem;
+  color: whitesmoke;
 }
 
 footer img {
@@ -210,6 +209,7 @@ li {
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 1rem;
+  line-height: unset;
 }
 
 #location {
@@ -280,6 +280,25 @@ li {
 
 #partners img {
   width: 25%;
+}
+
+#CCKB {
+  display: none;
+}
+
+@media screen and (max-device-width: 496px) {
+  .flexRow {
+    flex-direction: column;
+  }
+
+  footer * {
+    margin: 0.5rem;
+    font-size: 0.6rem;
+  }
+
+  footer img {
+    width: 80%;
+  }
 }
 
 @media screen and (min-device-width: 768px) {
@@ -355,5 +374,18 @@ li {
   footer {
     display: flex;
     align-items: center;
+    background: whitesmoke;
+  }
+
+  footer p {
+    color: #2e2e2e;
+  }
+
+  #CCKB {
+    display: inline-block;
+  }
+
+  #CCKW {
+    display: none;
   }
 }
